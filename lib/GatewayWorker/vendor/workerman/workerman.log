@@ -1,0 +1,47 @@
+2021-11-23 14:03:26 pid:1 Error: Call to undefined method Workerman\Connection\TcpConnection::getRemoteHost() in D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php:366
+Stack trace:
+#0 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php(238): Workerman\Protocols\Ws::sendHandshake(Object(Workerman\Connection\TcpConnection))
+#1 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Ws::encode('Hello 7f0000010...', Object(Workerman\Connection\TcpConnection))
+#2 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(578): Workerman\Connection\TcpConnection->send('Hello 7f0000010...')
+#3 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(637): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#6 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#7 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1418): GatewayWorker\Gateway->run()
+#8 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#9 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#10 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\Applications\YourApp\start_gateway.php(64): Workerman\Worker::runAll()
+#11 {main}
+2021-11-23 14:03:26 pid:1 Worker process terminated
+2021-11-23 14:15:10 pid:1 Error: Call to undefined method Workerman\Connection\TcpConnection::getRemoteHost() in D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php:366
+Stack trace:
+#0 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php(238): Workerman\Protocols\Ws::sendHandshake(Object(Workerman\Connection\TcpConnection))
+#1 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Ws::encode('Hello 7f0000010...', Object(Workerman\Connection\TcpConnection))
+#2 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(578): Workerman\Connection\TcpConnection->send('Hello 7f0000010...')
+#3 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(637): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#6 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#7 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1418): GatewayWorker\Gateway->run()
+#8 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#9 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#10 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\Applications\YourApp\start_gateway.php(64): Workerman\Worker::runAll()
+#11 {main}
+2021-11-23 14:15:10 pid:1 Worker process terminated
+2021-11-23 14:16:37 pid:1 Error: Call to undefined method Workerman\Connection\TcpConnection::getRemoteHost() in D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php:366
+Stack trace:
+#0 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Protocols\Ws.php(238): Workerman\Protocols\Ws::sendHandshake(Object(Workerman\Connection\TcpConnection))
+#1 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(321): Workerman\Protocols\Ws::encode('Hello 7f0000010...', Object(Workerman\Connection\TcpConnection))
+#2 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(578): Workerman\Connection\TcpConnection->send('Hello 7f0000010...')
+#3 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Connection\TcpConnection.php(637): GatewayWorker\Gateway->onWorkerMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Events\Select.php(293): Workerman\Connection\TcpConnection->baseRead(Resource id #32)
+#5 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(2430): Workerman\Events\Select->loop()
+#6 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\gateway-worker\src\Gateway.php(276): Workerman\Worker->run()
+#7 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1418): GatewayWorker\Gateway->run()
+#8 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(1361): Workerman\Worker::forkWorkersForWindows()
+#9 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\vendor\workerman\workerman\Worker.php(542): Workerman\Worker::forkWorkers()
+#10 D:\software\phpstudy_pro\WWW\www.123.com\lib\GatewayWorker\Applications\YourApp\start_gateway.php(64): Workerman\Worker::runAll()
+#11 {main}
+2021-11-23 14:16:37 pid:1 Worker process terminated
+2021-11-23 14:16:49 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
+2021-11-23 14:16:49 pid:1 SendBufferToWorker fail. The connections between Gateway and BusinessWorker are not ready. See http://doc2.workerman.net/send-buffer-to-worker-fail.html
